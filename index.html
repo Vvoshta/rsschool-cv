@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
     <link rel="stylesheet" href="/rsschool-cv/css/style.css">
     <link rel="icon" href="assets/favicon.ico">
@@ -14,22 +14,224 @@
 <body>
     <div class="container">
         <header class="header">
-            <figure class="header_avatar">
-                <img class="header_photo" src="assets/img/my_photo.jpg" alt="Avatar photo">
+            <figure class="header__avatar">
+                <img class="header__photo" src="assets/img/my_photo.jpg" alt="Avatar photo">
             </figure>
-            <div class="header_titles">
-                <h1 class="header_title">Voshta Valeriia</h1>
-                <h3 class="header_subtitle">Web-developer</h3>
+            <div class="header__titles">
+                <h1 class="header__title">Voshta Valeriia</h1>
+                <h3 class="header__subtitle">Web-developer</h3>
             </div>
-            <ul class="header_contact">
-                <li class="contact_block">
-                    <img class="contact_image" src="/rsschool-cv/assets/svg/email.svg" alt="Email">
-                    <a href="mailto:vvoshta@gmail.com">vvoshta@gmail.com</a>
+            <ul class="header__contact">
+                <li class="contact__block">
+                    <img class="contact__image" src="/rsschool-cv/assets/svg/email.svg" alt="Email">
+                    <a class="contact__link" href="mailto:vvoshta@gmail.com">vvoshta@gmail.com</a>
                 </li>
-                <a href="https://t.me/valerienna">t.me/valerienna</a>
-                <a href="tel:+79686765421">8(968)676-54-21</a>
+                <li class="contact__block">
+                    <img class="contact__image" src="/rsschool-cv/assets/svg/telegram.svg" alt="Telegram">
+                    <a class="contact__link" href="https://t.me/valerienna">t.me/valerienna</a>
+                </li>
+                <li class="contact__block">
+                    <img class="contact__image" src="/rsschool-cv/assets/svg/github.svg" alt="Github">
+                    <a class="contact__link" href="https://github.com/Vvoshta">github.com/Vvoshta</a>
+                </li>
+                <li class="contact__block">
+                    <img class="contact__image" src="/rsschool-cv/assets/svg/location.svg" alt="Location">
+                    <a class="contact__link" href="#">Moscow, Russia</a>
+                </li>
             </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,224L120,229.3C240,235,480,245,720,250.7C960,256,1200,256,1320,256L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
         </header>
+    </div>
+    <div class="container">
+        <main>
+            <div class="column">
+                <section class="cv-section about">
+                    <h2 class="cv-title">About me</h2>
+                    <p class="about__text">
+                        An enthusiastic and detail-oriented Junior Frontend Developer with proficient knowledge in HTML, CSS and JavaScript. Seeking to utilize my technical skills and expertise to provide value to the employer and contribute to successful projects both today and in the future. Aiming to take on new challenges and utilize my coding and debugging skills for developing new features and enhance the overall user experience.
+                    </p>
+                </section>
+
+                <section class="cv-section work">
+                    <h2 class="cv-title">Work experience</h2>
+
+                    <div class="work__block">
+                        <h3 class="work__head">Web-developer (Trainee)</h3>
+                        <div class="work__info">
+                            <div class="date work__title work__date">News portal kp40.ru, 2020-2021</div>
+                        </div>
+                        <div class="work__text">
+                            <p class="document-text">Assisted senior developers in translating basic client requests into an HTML code. Worked with developers, designers, copywriters, and other cross-functional teams. </p>
+                        </div>
+                    </div>
+
+                    <div class="work__block">
+                        <h3 class="work__head">Web-developer</h3>
+                        <div class="work_info">
+                            <div class="date work__title work__date">City Government of Kaluga website, 2021-2023</div>
+                        </div>
+                        <div class="work__text">
+                            <p class="document-text">Developed user interfaces with modern JavaScript frameworks, HTML5, and CSS3. Learned multiple threading, concurrency, design patterns, and their impacts on application concurrency. Created accessible, responsive, and functional user interfaces to allow visitors on any device to have the same perfect user experience.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cv-section skills">
+                    <h2 class="cv-title">Skills</h2>
+                    <ul class="skills__container">
+                        <li class="skills__block">
+                            <p class="skills__text">HTML5</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                            </ul>
+                        </li>
+                        <li class="skills__block">
+                            <p class="skills__text">CSS3</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                            </ul>
+                        </li>
+                        <li class="skills__block">
+                            <p class="skills__text">JS basic</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                            </ul>
+                        </li>
+                        <li class="skills__block">
+                            <p class="skills__text">SCSS</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                            </ul>
+                        </li>
+                        <li class="skills__block">
+                            <p class="skills__text">Git&Github</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                                <li class="skills-list__item skills-list__item__grey"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="column column__main">
+                <section class="cv-section education">
+                    <h2 class="cv-title">Education</h2>
+                    <div class="education__block">
+                        <p class="education__title">LLB</p>
+                        <div class="date education__text education__date">Plekhanov Russian University of Economics, 2016-2020</div>
+                    </div>
+                    <div class="education__block">
+                        <p class="education__title">BA in Teaching English</p>
+                        <div class="date education__text education__date">Moscow State Pedagogical University, 2019-2022</div>
+                    </div>
+                    <div class="education__block">
+                        <p class="education__title">Basic Course in HTML, CSS and JS</p>
+                        <div class="date education__text education__date">HTML Academy, 2022-2023</div>
+                    </div>
+                </section>
+
+                <section class="cv-section code">
+                    <h2 class="cv-title">Code example</h2>
+                    <pre><code>window.addEventListener('DOMContentLoaded', () => {
+                        const menu = document.querySelector('.menu'),
+                        menuItem = document.querySelectorAll('.menu_item'),
+                        hamburger = document.querySelector('.hamburger');
+                    
+                        hamburger.addEventListener('click', () => {
+                            hamburger.classList.toggle('hamburger_active');
+                            menu.classList.toggle('menu_active');
+                        });
+                    
+                        menuItem.forEach(item => {
+                            item.addEventListener('click', () => {
+                                hamburger.classList.toggle('hamburger_active');
+                                menu.classList.toggle('menu_active');
+                            })
+                        })
+                    })</code>
+                    </pre>
+                </section>
+
+                <section class="cv-section languages">
+                    <h2 class="cv-title">Foreign languages</h2>
+                    <ul class="languages__list">
+                        <li class="languages__item">Russian - native</li>
+                        <li class="languages__item">English - C1</li>
+                        <li class="languages__item">German - A2</li>
+                    </ul>
+                </section>
+
+                <section class="cv-section hobby">
+                    <h2 class="cv-title">Hobbies</h2>
+                    <div class="hobby__container">
+                        <div class="hobby__row">
+                            <div class="hobby__block">
+                                <img class="hobby__image" src="/rsschool-cv/assets/svg/cooking.svg" alt="Cooking">
+                                <p class="hobby__text">Cooking</p>
+                            </div>
+                            <div class="hobby__block">
+                                <img class="hobby__image" src="/rsschool-cv/assets/svg/painting.svg" alt="Painting">
+                                <p class="hobby__text">Painting</p>
+                            </div>
+                        </div>
+                        <div class="hobby__row">
+                            <div class="hobby__block">
+                                <img class="hobby__image" src="/rsschool-cv/assets/svg/photo.svg" alt="Photography">
+                                <p class="hobby__text">Portrait photography</p>
+                            </div>
+                            <div class="hobby__block">
+                                <img class="hobby__image" src="/rsschool-cv/assets/svg/running.svg" alt="Running">
+                                <p class="hobby__text">Running</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <div class="page-footer__container">
+                <div class="page-footer__copyright">
+                    <p>© 2023 by Valeriia Voshta</p>
+                </div>
+                <ul class="page-footer__links">
+                    <li class="links__item">
+                        <a class="links__item__link" href="https://github.com/Vvoshta">Github</a>
+                    </li>
+                    <li class="links__item">
+                        <a class="links__item__link" href="https://rs.school/js/">RS School Course</a>
+                    </li>
+                    <li class="links__item">
+                        <a class="links__item__link" href="https://rs.school/js/"><img class="rsschool" src="/rsschool-cv/assets/svg/rs_school.svg" alt="RS School"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
